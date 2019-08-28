@@ -84,143 +84,15 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Ipconfig发现只有一张网卡<br><img src="https://i.imgur.com/gs4lW9E.png" alt="![1.1](https://i.imgur.com/eanEtCM.png)"><br>vim /etc/network/interfaces<br><img src="https://i.imgur.com/HiAMdvo.png" alt><br>sudo /etc/init.d/networking restart启动网卡<br>ifconfig<br><img src="https://i.imgur.com/w58ZCZW.png" alt><br>Ping <a href="http://www.baidu.com" target="_blank" rel="noopener">www.baidu.com</a><br><img src="https://i.imgur.com/QVKwWog.png" alt><br>ok结束</p>
+        <p>1.Ipconfig发现只有一张网卡</p>
+<p>2.vim /etc/network/interfaces<br>添加<br>Auto eth0<br>Iface eth0 inet dhcp<br>3.sudo /etc/init.d/networking restart启动网卡<br>4.ifconfig</p>
+<p>5.Ping <a href="http://www.baidu.com" target="_blank" rel="noopener">www.baidu.com</a></p>
+<p>ok结束</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/08/28/解决卡里虚拟机只有本地网卡lo问题/" data-id="cjzupolxt000368uymbs38twq" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-my-first-blog" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/08/20/my-first-blog/" class="article-date">
-  <time datetime="2019-08-20T04:11:10.000Z" itemprop="datePublished">2019-08-20</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/08/20/my-first-blog/">my-first-blog</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>使用github pages服务搭建博客的好处有：</p>
-<ol>
-<li>全是静态文件，访问速度快；</li>
-<li>免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；</li>
-<li>可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的；</li>
-</ol>
-        
-          <p class="article-more-link">
-            <a href="/2019/08/20/my-first-blog/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/08/20/my-first-blog/" data-id="cjzupolxr000268uyx95vsmdm" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/08/20/hello-world/" class="article-date">
-  <time datetime="2019-08-20T02:19:52.335Z" itemprop="datePublished">2019-08-20</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/08/20/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/08/20/hello-world/" data-id="cjzupolxo000168uyqv6irky6" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-article-title" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/08/20/article-title/" class="article-date">
-  <time datetime="2019-08-20T01:31:46.000Z" itemprop="datePublished">2019-08-20</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/08/20/article-title/">article title</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/08/20/article-title/" data-id="cjzupolxd000068uylyflbfut" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/08/28/解决卡里虚拟机只有本地网卡lo问题/" data-id="cjzupw10e0000p4uy4oyym04h" class="article-share-link">Share</a>
       
       
     </footer>
@@ -262,18 +134,6 @@
         
           <li>
             <a href="/2019/08/28/解决卡里虚拟机只有本地网卡lo问题/">解决卡里虚拟机只有本地网卡lo问题</a>
-          </li>
-        
-          <li>
-            <a href="/2019/08/20/my-first-blog/">my-first-blog</a>
-          </li>
-        
-          <li>
-            <a href="/2019/08/20/hello-world/">Hello World</a>
-          </li>
-        
-          <li>
-            <a href="/2019/08/20/article-title/">article title</a>
           </li>
         
       </ul>
